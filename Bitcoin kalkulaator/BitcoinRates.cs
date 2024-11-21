@@ -8,7 +8,9 @@ namespace Bitcoin_kalkulaator
 {
     public class BitcoinRates
     {
-        public class Bpi
+        public Bpi Bpi{ get; set; }
+        
+    }public class Bpi
         {
             public USD USD { get; set; }
             public GBP GBP { get; set; }
@@ -38,5 +40,4 @@ namespace Bitcoin_kalkulaator
             public string description { get; set; }
             public double rate_float { get; set; }
         }
-    }
 }
