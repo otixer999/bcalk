@@ -21,3 +21,16 @@ C:\Users\opilane\source\repos\Bitcoin kalkulaator\Bitcoin kalkulaator\bcalk\Bitc
 C:\Users\opilane\source\repos\Bitcoin kalkulaator\Bitcoin kalkulaator\bcalk\Bitcoin kalkulaator\bin\Debug\Newtonsoft.Json.dll
 C:\Users\opilane\source\repos\Bitcoin kalkulaator\Bitcoin kalkulaator\bcalk\Bitcoin kalkulaator\bin\Debug\Newtonsoft.Json.xml
 C:\Users\opilane\source\repos\Bitcoin kalkulaator\Bitcoin kalkulaator\bcalk\Bitcoin kalkulaator\obj\Debug\Bitcoin .E9B6E592.Up2Date
+C:\Users\opilane\Source\Repos\bcalk\Bitcoin kalkulaator\obj\Debug\Bitcoin kalkulaator.csproj.AssemblyReference.cache
+C:\Users\opilane\Source\Repos\bcalk\Bitcoin kalkulaator\obj\Debug\Bitcoin_kalkulaator.Form1.resources
+C:\Users\opilane\Source\Repos\bcalk\Bitcoin kalkulaator\obj\Debug\Bitcoin_kalkulaator.Properties.Resources.resources
+C:\Users\opilane\Source\Repos\bcalk\Bitcoin kalkulaator\obj\Debug\Bitcoin kalkulaator.csproj.GenerateResource.cache
+C:\Users\opilane\Source\Repos\bcalk\Bitcoin kalkulaator\obj\Debug\Bitcoin kalkulaator.csproj.CoreCompileInputs.cache
+C:\Users\opilane\Source\Repos\bcalk\Bitcoin kalkulaator\obj\Debug\Bitcoin kalkulaator.exe
+C:\Users\opilane\Source\Repos\bcalk\Bitcoin kalkulaator\obj\Debug\Bitcoin kalkulaator.pdb
+C:\Users\opilane\Source\Repos\bcalk\Bitcoin kalkulaator\bin\Debug\Bitcoin kalkulaator.exe.config
+C:\Users\opilane\Source\Repos\bcalk\Bitcoin kalkulaator\bin\Debug\Bitcoin kalkulaator.exe
+C:\Users\opilane\Source\Repos\bcalk\Bitcoin kalkulaator\bin\Debug\Bitcoin kalkulaator.pdb
+C:\Users\opilane\Source\Repos\bcalk\Bitcoin kalkulaator\bin\Debug\Newtonsoft.Json.dll
+C:\Users\opilane\Source\Repos\bcalk\Bitcoin kalkulaator\bin\Debug\Newtonsoft.Json.xml
+C:\Users\opilane\Source\Repos\bcalk\Bitcoin kalkulaator\obj\Debug\Bitcoin .E9B6E592.Up2Date

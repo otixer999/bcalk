@@ -27,6 +27,43 @@ namespace Bitcoin_kalkulaator
 
         private void button1_Click(object sender, EventArgs e)
         {
+            if (currencySelector.SelectedItem.ToString() == "EUR")
+            {
+                resultLabel.Visible = true;
+                tulemusLabel.Visible = true;
+                BitcoinRates newbitcoinrate = GetRates();
+                float result = float.Parse(bitcoinAmountInput.Text) * (float)newbitcoinrate.Bpi.EUR.rate_float;
+                resultLabel.Text = $"{result} {newbitcoinrate.Bpi.EUR.code}";
+            }
+
+            if (currencySelector.SelectedItem.ToString() == "USD")
+            {
+                resultLabel.Visible = true;
+                tulemusLabel.Visible = true;
+                BitcoinRates newbitcoinrate = GetRates();
+                float result = float.Parse(bitcoinAmountInput.Text) * (float)newbitcoinrate.Bpi.USD.rate_float;
+                resultLabel.Text = $"{result} {newbitcoinrate.Bpi.USD.code}";
+            }
+
+            if (currencySelector.SelectedItem.ToString() == "GBP")
+            {
+                resultLabel.Visible = true;
+                tulemusLabel.Visible = true;
+                BitcoinRates newbitcoinrate = GetRates();
+                float result = float.Parse(bitcoinAmountInput.Text) * (float)newbitcoinrate.Bpi.GBP.rate_float;
+                resultLabel.Text = $"{result} {newbitcoinrate.Bpi.GBP.code}";
+            }
+
+            if (currencySelector.SelectedItem.ToString() == "EEK")
+            {
+                resultLabel.Visible = true;
+                tulemusLabel.Visible = true;
+                BitcoinRates newbitcoinrate = GetRates();
+                float result = float.Parse(bitcoinAmountInput.Text) * (float)newbitcoinrate.Bpi.GBP.rate_float;                result *= (float)(15.6466);
+                resultLabel.Text = $"{result} EEK";
+
+
+            }
 
         }
 
@@ -51,19 +88,7 @@ namespace Bitcoin_kalkulaator
 
         private void resultLabel_TextChanged(object sender, EventArgs e)
         {
-            if (currencySelector.SelectedItem.ToString() == "EUR")
-            {
-                resultLabel.Visible = true;
-                tulemusLabel.Visible = true;
-                BitcoinRates newbitcoinrate = new BitcoinRates();
-                float result = float.Parse(bitcoinAmountInput.Text) * (float)newbitcoinrate.Bpi.EUR.rate_float;
-                resultLabel.Text = $"{result} Bitcoini {newbitcoinrate.Bpi.EUR.code}";
+            
             }
         }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
     }
-}
